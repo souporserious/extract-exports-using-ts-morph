@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "deploy": "yarn build && gh-pages -d out"
+    "deploy": "yarn build && touch out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
     "@ts-morph/common": "^0.11.1",

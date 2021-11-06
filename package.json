@@ -1,0 +1,20 @@
+{
+  "name": "ts-morph-extract-export",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "deploy": "yarn build && gh-pages -d out"
+  },
+  "dependencies": {
+    "@ts-morph/common": "^0.11.1",
+    "@types/react": "^17.0.34",
+    "gh-pages": "^3.2.3",
+    "next": "^12.0.3",
+    "prettier": "^2.4.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-morph": "^12.2.0",
+    "typescript": "^4.4.4"
+  }
+}
